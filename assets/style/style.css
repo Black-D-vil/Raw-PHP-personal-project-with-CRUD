@@ -1,0 +1,47 @@
+body {
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #06c4dd; /* Header background */
+    color: rgb(18, 182, 92);  /* Text color */
+}
+
+.sidebar {
+    background-color: #15d415; /* Matches the sidebar background */
+    min-height: 100vh;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    padding: 10px 0;
+}
+
+.nav-link.active {
+    background-color: #0eca72;
+    border-radius: 5px;
+}
+
+.main-content {
+    background-color: #ffffff;
+    min-height: 100vh;
+}
+
+.image-gallery img {
+    margin-top: 20px;
+    transform: rotate(-5deg);
+}
+
+.logo img {
+    max-width: 100px; /* Adjust the size of your logo */
+    display: block;
+}
+
+.sidebar .nav-link {
+    font-size: 1.5rem; /* Increase font size */
+    font-weight: bold; /* Make the font bold */
+}
+
+/* .bg-black {
+    background-color: black;
+} */
